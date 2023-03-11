@@ -1,0 +1,9 @@
+.middlebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 140px;
+    width: 100%;
+    flex-direction: column;
+    
+}

@@ -1,0 +1,22 @@
+.profileicons{
+    display: flex;
+    margin-left: 10px;
+}
+.TbGridDots{
+    cursor: pointer;
+}
+.TbGridDots:hover{
+    border-radius: 50%;
+    height: 30px;
+    box-shadow: 1px 1px 3px rgba(150, 130, 130, 0.247);
+}
+
+.profileicons .cgProfile{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.profileicons .cgProfile:hover{
+    border-radius: 50%;
+    height: 30px;
+    box-shadow: 1px 1px 3px rgba(150, 130, 130, 0.247);
+}

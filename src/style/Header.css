@@ -1,0 +1,55 @@
+.headerForSearch{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+.iconAndText{
+   margin-top: 20px;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+.headerSection{
+   margin-top: 20px;
+   margin-right: 20px;
+   position: relative;
+}
+.textColor{
+   color: #1a73e8;
+}
+.selectedmenuName{
+   height: 3px;
+   width:80%;
+   position: absolute;
+   background: #1a73e8;
+   bottom: 0;
+   top: 30px;
+   left: 10px ;
+}
+/* .headerForSearch .googlelogoForsearchResult{
+   height: 20px;
+} */
+/* .logoSearchinput{
+   display: flex;
+ 
+   justify-content: center;
+}
+.logoSearchinput .googlelogoForsearchResult{
+   height: 20px;
+   align-items: center;
+}
+.logoSearchinput .inputsection{
+   margin-left: 20px;
+   align-items: center;
+} */
+
+.logoSearchinput{
+   display: flex;
+   align-items: center;
+}
+.googlelogoForsearchResult{
+  height: 40px;
+}
+.inputsection{
+   margin-left: 20px;
+}

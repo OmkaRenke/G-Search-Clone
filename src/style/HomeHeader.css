@@ -1,0 +1,17 @@
+.homeHeader{
+   height: 16px;
+   display: flex;
+   justify-content:"center";
+   float: right;
+   margin-top: 10px;
+}
+.homeHeader .headLink{
+   margin-left: 20px;
+   text-decoration: none;
+   color: black;
+
+}
+.homeHeader .headLink:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}

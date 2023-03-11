@@ -1,0 +1,36 @@
+
+.Footer{
+    width: 1200px;
+}
+.location{
+   font-size: 30px;
+   color: #70767a;
+   margin-top: 20px;
+}
+.location .locationCountry{
+   padding-left: 20px;
+   padding-right: 20px;
+   border-right: 1px solid #70767a;
+   font-size: 20px;
+    
+}
+.location .exactLocation{
+   padding-left: 20px;
+   font-size: 20px;
+}
+.quickLinks {
+    display: flex;
+    align-items: center;
+}
+.quickLinksText{
+    margin-left: 25px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.quickLinksText:hover{
+    color: #70767ad7;
+    transition: all 0.3s ease-in-out;
+}
+.hr{
+    margin-top: 4px;
+}

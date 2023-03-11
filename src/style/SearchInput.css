@@ -1,0 +1,45 @@
+
+.searchInput{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.outlineSearch{
+    height: 42px;
+    padding: 10px;
+    cursor: pointer;    
+    border-top: 2px solid red;
+    border-bottom: 2px solid rgb(68, 161, 80);
+    border-left:2px solid rgb(255, 208, 0) ;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+#mic{
+    height: 42px ;
+    padding: 5px;
+    cursor: pointer;    
+    border-top: 2px solid rgb(0, 38, 255);
+    border-bottom: 2px solid red;
+    border-right:2px solid rgb(255, 208, 0)  ;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.inputbox{
+    border-top: 2px solid rgb(68, 161, 80);
+    border-bottom:2px solid rgb(0, 38, 255);
+    border-right:none ;
+    border-left:none ;
+    width: 450px;
+    height: 42px;
+    outline: none;
+    font-size: 18px;
+    padding: 5px;
+}
+.close{
+    height: 42px ;
+    cursor: pointer;  
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
