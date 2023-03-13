@@ -3,6 +3,7 @@ import React from 'react'
 
 import {quickLinks} from "../utils/constant"
 import {settingMenu} from "../utils/constant"
+import {settingMenu2} from "../utils/constant"
 
 import "../style/Footer.css"
 const Footer = () => {
@@ -17,14 +18,21 @@ const Footer = () => {
         <div className='quickLinks'>
           {
             quickLinks.map((link,index)=>(
-              <span className='quickLinksText' key={index}>{link}</span>
+              <span className='quickLinksText1' key={index}>{link}</span>
             ))
           }
         </div>
         <div className='quickLinks'>
         {
           settingMenu.map((link,index)=>(
-              <span className='quickLinksText' key={index}>{link}</span>
+              <span className='quickLinksText2' key={index}>{link}</span>
+            ))
+        }
+        </div>
+        <div className='quickLinks'>
+        {
+          settingMenu2.map((link,index)=>(
+              <span className='quickLinksText3' key={index}>{link}</span>
             ))
         }
         </div>

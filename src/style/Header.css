@@ -26,30 +26,54 @@
    top: 30px;
    left: 10px ;
 }
-/* .headerForSearch .googlelogoForsearchResult{
-   height: 20px;
-} */
-/* .logoSearchinput{
-   display: flex;
- 
-   justify-content: center;
-}
-.logoSearchinput .googlelogoForsearchResult{
-   height: 20px;
-   align-items: center;
-}
-.logoSearchinput .inputsection{
-   margin-left: 20px;
-   align-items: center;
-} */
 
 .logoSearchinput{
    display: flex;
    align-items: center;
+   
 }
 .googlelogoForsearchResult{
   height: 40px;
+  cursor: pointer;
 }
 .inputsection{
    margin-left: 20px;
+   height: 80px;
+}
+@media (max-width:500px){
+   .iconAndText{
+      width: 50%;
+      display: flex;
+      margin-top: 0;
+     
+   }
+   .selectedmenuName{
+      position: absolute;
+      bottom: 0;
+      top: 32px;
+      left: 0 ;
+      width:90%;
+      cursor: pointer;
+   }
+   .headerSection{
+      position: relative;
+      display: flex;
+      font-size: 12px;
+      width: 100%;
+     
+   }
+ 
+   .googlelogoForsearchResult{
+     display: none
+   }
+   .inputsection{
+      margin: 0;
+      width: 300px;
+   }
+   .profileIcon{
+      display: none;
+   }
+   .headerForSearch{
+   cursor: pointer;
+   }
 }

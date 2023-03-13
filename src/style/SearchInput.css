@@ -36,10 +36,12 @@
     outline: none;
     font-size: 18px;
     padding: 5px;
+
 }
-.close{
-    height: 42px ;
-    cursor: pointer;  
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
+/* .inputbox[type=search]{
+    cursor: pointer;
+} */
+.outlineSearch{
+    width: 42px;
+    color: #9aa0a6; 
 }

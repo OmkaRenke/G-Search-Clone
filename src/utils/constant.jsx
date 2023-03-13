@@ -11,7 +11,7 @@ export const menu = [
     { name: "News", icon: <BiNews /> },
     { name: "Videos", icon: <RiVideoLine /> },
     { name: "Shopping", icon: <SlTag size={14} /> },
-    { name: "More", icon: <FiMoreVertical size={14} /> },
+    // { name: "More", icon: <FiMoreVertical size={14} /> },
 ];
 
 export const quickLinks = [
@@ -21,6 +21,7 @@ export const quickLinks = [
     "How Search works",
 ];
 export const settingMenu = ["Help","Send feedback","Privacy", "Terms"];
+export const settingMenu2 = ["Help","Privacy", "Terms"];
 
 export const pagination = [
     { page: 1, startIndex: 1 },

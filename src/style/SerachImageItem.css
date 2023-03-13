@@ -1,0 +1,29 @@
+.SerachImageItem{
+    padding-top: 3px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.image{
+    overflow:hidden;
+    height: 120px;
+    width: 120px;
+}
+.singleImage{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.displayLink{
+    font-size: 14px;
+   
+}
+.title{
+    font-size: 12px; 
+}
+.title:hover{
+    text-decoration: underline;
+}

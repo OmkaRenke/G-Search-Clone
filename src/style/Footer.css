@@ -22,15 +22,53 @@
     display: flex;
     align-items: center;
 }
-.quickLinksText{
+.quickLinksText1{
     margin-left: 25px;
     cursor: pointer;
     font-size: 15px;
 }
-.quickLinksText:hover{
+.quickLinksText2{
+    margin-left: 25px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.quickLinksText1:hover{
+    color: #70767ad7;
+    transition: all 0.3s ease-in-out;
+}
+.quickLinksText2:hover{
     color: #70767ad7;
     transition: all 0.3s ease-in-out;
 }
 .hr{
     margin-top: 4px;
+}
+.quickLinksText3{
+    display: none;
+}
+@media(max-width:500px){
+    .Footer{
+        width: 50%;
+    }
+    .location{
+       display: flex;
+    }
+    .hr{
+        display: none;
+    }
+    .quickLinks{
+        width: 50%;
+    }
+    .quickLinksText1{
+       display: none;
+    }
+    .quickLinksText2{
+        display: none;
+    }
+    .quickLinksText3{
+        display: flex;
+        margin-left: 10px;
+        margin-top: 20px;
+       cursor: pointer;
+    }
 }

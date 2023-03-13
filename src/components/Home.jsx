@@ -13,7 +13,7 @@ const Home = () => {
           <div className='googleMainLogo'>
           <img src={i} alt="" />
           </div>
-          <SearchInput></SearchInput>
+          <SearchInput className="searchInput"></SearchInput>
        </div>
     </div>
   )

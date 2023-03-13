@@ -7,3 +7,17 @@
     flex-direction: column;
     
 }
+
+@media (max-width:500px){
+    .middlebox{
+        width: 50%;
+        margin: 0;
+        margin-left: -39px;
+    }
+    .googleMainLogo{
+        width: 50%;
+    }
+   .searchInput{
+    width: 50%;
+   }
+}

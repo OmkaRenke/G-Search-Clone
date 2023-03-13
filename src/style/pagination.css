@@ -1,0 +1,53 @@
+.pageNumber{
+     cursor: pointer;
+}
+.spanPageNumber{
+    display: flex;
+    gap: 17px;
+    margin-right: 60px;
+}
+.activePage{
+    font-size: 18px;
+    border-bottom: 2px solid black;
+}
+
+.pagination{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    padding-top: 16px;
+}
+
+.tabAndLogo{
+    display: flex;
+}
+.paginationImage{
+   width: 400px;
+   padding: 0 20px;
+}
+.arrowWithDiv{
+    font-size: 18px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+@media(max-width:500px){
+    .pagination{
+        width:100%;
+    }
+    .arrowWithDiv{
+        font-size: 13px;
+        padding: 0;
+    }
+    .paginationImage{
+        width: 250px;
+        padding: 0 4px;
+    }
+    .spanPageNumber{
+        display: flex;
+        gap: 9px;
+        margin-right: 14px;
+    }
+}

@@ -2,5 +2,9 @@
     max-width: 1200px;
     width: 90%;
     margin: auto;
-    background: rgb(88, 88, 198);
+}
+@media(max-width:768px){
+    .App{
+        width: 100%;
+    }
 }
