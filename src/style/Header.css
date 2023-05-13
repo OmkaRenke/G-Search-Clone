@@ -1,79 +1,80 @@
-.headerForSearch{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
+.headerForSearch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.iconAndText{
-   margin-top: 20px;
-   margin-bottom: 10px;
-   cursor: pointer;
+.iconAndText {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 100%;
 }
-.headerSection{
-   margin-top: 20px;
-   margin-right: 20px;
-   position: relative;
+.headerSection {
+  margin-top: 20px;
+  margin-right: 20px;
+  position: relative;
 }
-.textColor{
-   color: #1a73e8;
+.headerSection .text {
+  padding-left: 5px;
 }
-.selectedmenuName{
-   height: 3px;
-   width:80%;
-   position: absolute;
-   background: #1a73e8;
-   bottom: 0;
-   top: 30px;
-   left: 10px ;
+.textColor {
+  color: #1a73e8;
+}
+.selectedmenuName {
+  height: 3px;
+  width: 80%;
+  position: absolute;
+  background: #1a73e8;
+  bottom: 0;
+  top: 30px;
+  left: 10px;
 }
 
-.logoSearchinput{
-   display: flex;
-   align-items: center;
-   
+.logoSearchinput {
+  display: flex;
+  align-items: center;
 }
-.googlelogoForsearchResult{
+.googlelogoForsearchResult {
   height: 40px;
   cursor: pointer;
 }
-.inputsection{
-   margin-left: 20px;
-   height: 80px;
+.inputsection {
+  margin-left: 20px;
+  height: 80px;
 }
-@media (max-width:500px){
-   .iconAndText{
-      width: 50%;
-      display: flex;
-      margin-top: 0;
-     
-   }
-   .selectedmenuName{
-      position: absolute;
-      bottom: 0;
-      top: 32px;
-      left: 0 ;
-      width:90%;
-      cursor: pointer;
-   }
-   .headerSection{
-      position: relative;
-      display: flex;
-      font-size: 12px;
-      width: 100%;
-     
-   }
- 
-   .googlelogoForsearchResult{
-     display: none
-   }
-   .inputsection{
-      margin: 0;
-      width: 300px;
-   }
-   .profileIcon{
-      display: none;
-   }
-   .headerForSearch{
-   cursor: pointer;
-   }
+@media (max-width: 500px) {
+  .iconAndText {
+    width: 50%;
+    display: flex;
+    margin-top: 0;
+  }
+  .selectedmenuName {
+    position: absolute;
+    bottom: 0;
+    top: 32px;
+    left: 0;
+    width: 90%;
+    cursor: pointer;
+  }
+  .headerSection {
+    position: relative;
+    display: flex;
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .googlelogoForsearchResult {
+    display: none;
+  }
+  .inputsection {
+    margin: 0;
+    width: 300px;
+  }
+  .profileIcon {
+    display: none;
+  }
+  .headerForSearch {
+    cursor: pointer;
+  }
 }

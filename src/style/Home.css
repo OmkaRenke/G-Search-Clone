@@ -1,23 +1,23 @@
-.middlebox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 140px;
-    width: 100%;
-    flex-direction: column;
-    
+.middlebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 140px;
+  width: 100%;
+  flex-direction: column;
 }
 
-@media (max-width:500px){
-    .middlebox{
-        width: 50%;
-        margin: 0;
-        margin-left: -39px;
-    }
-    .googleMainLogo{
-        width: 50%;
-    }
-   .searchInput{
+@media (max-width: 500px) {
+  .middlebox {
+    width: 400px;
+    /* margin: 0 auto; */
+  }
+  .googleMainLogo {
     width: 50%;
-   }
+    margin-right: 100px;
+  }
+  .searchInput {
+    width: 50%;
+    margin-right: 100px;
+  }
 }
